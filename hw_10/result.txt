@@ -1,0 +1,3 @@
+In string 1 apple: 3
+In string 2 orange: 3
+In string 3 banana: 3
