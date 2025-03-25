@@ -6,7 +6,7 @@ def print_menu():
     print("1. Добавить курс")
     print("2. Добавить преподавателя")
     print("3. Добавить студента")
-    print("4. Записать студента на курс")
+    print("4. Поставить оценку студенту")
     print("5. Посмотреть прогресс студента")
     print("6. Найти курс по названию")
     print("7. Выход")
@@ -54,7 +54,7 @@ def main():
                 grade = input("Оценка (если есть, иначе Enter): ").strip()
                 grade = int(grade) if grade else None
                 enroll_student(student_id, course_id, grade)
-                print("✅ Студент записан на курс!")
+                print("✅ Студент получил оценку!")
             except ValueError:
                 print("⚠ Ошибка: ID и оценка должны быть числами.")
             except Exception as e:

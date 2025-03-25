@@ -74,7 +74,7 @@ def add_student(name, email):
         return curr.fetchone()[0]
 
 def enroll_student(student_id, course_id, grade=None):
-    """Записывает студента на курс"""
+    """Оценивает студента"""
     with connect_db() as conn, conn.cursor() as curr:
         curr.execute("INSERT INTO enrollments (student_id, course_id, grade) VALUES (%s, %s, %s);",
                      (student_id, course_id, grade))
