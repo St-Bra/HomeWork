@@ -1,0 +1,6 @@
+# ENGINE = 'django.db.backends.postgresql'
+DB_NAME = 'eschool_db'
+DB_USER = 'postgres'
+DB_PASSWORD = '09890'
+DB_HOST = 'localhost'
+DB_PORT = '5432'
