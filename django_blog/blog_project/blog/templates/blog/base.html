@@ -1,0 +1,13 @@
+<!-- blog/templates/blog/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}My Blog{% endblock %}</title>
+</head>
+<body>
+    <h1><a href="{% url 'post-list-html' %}">My Blog</a></h1>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>

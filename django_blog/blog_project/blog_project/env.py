@@ -1,0 +1,5 @@
+DB_NAME = 'myblog'
+DB_USER = 'postgres'
+DB_PASSWORD = '09890'
+DB_HOST = 'localhost'
+DB_PORT = '5432'
