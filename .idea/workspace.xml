@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74f2153d-393e-4dff-9c5a-ada2fda79b37" name="Changes" comment="add hw flask_sqlalch">
+      <change beforePath="$PROJECT_DIR$/flask_onl_scl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_onl_scl/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_onl_scl/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_onl_scl_alch/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_onl_scl_alch/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/hw_9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/stop_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/task6/task_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/task6/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/task_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_10/text.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_11/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_11/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_11/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_12/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_12/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_12/task_3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_13_generator/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_13_generator/task_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_sql/hw_14.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_sql/hw_15.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myapp2/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onl_school_sqlalchemy/db_alchemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/onl_school_sqlalchemy/main_alchemy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_school/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/online_school/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/hw_11/task_2.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2thFh1c75IM7ZJsHOGZxiobce40" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.db.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_alchemy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/msi/PycharmProjects/HomeWork/flask_onl_scl_alch&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\flask_onl_scl_alch" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\flask_onl_scl" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\o_school_sqlalchemy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\django_blog\blog_project" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\myproject\myproject" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\flask_onl_scl" />
+      <recent name="C:\Users\msi\PycharmProjects\HomeWork\hw_11 " />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74f2153d-393e-4dff-9c5a-ada2fda79b37" name="Changes" comment="" />
+      <created>1740796514760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740796514760</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add hw flask_sqlalch">
+      <option name="closed" value="true" />
+      <created>1744119325612</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744119325612</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add hw flask_sqlalch" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hw flask_sqlalch" />
+  </component>
+</project>
