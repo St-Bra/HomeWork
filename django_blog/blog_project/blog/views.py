@@ -1,5 +1,10 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
+from rest_framework import status
+from rest_framework.permissions import IsAuthenticated
+from rest_framework.response import Response
+from rest_framework.views import APIView
+
 from .models import Post
 from django.utils import timezone
 
@@ -34,11 +39,15 @@ def post_detail_html(request, pk):
     post = get_object_or_404(Post, pk=pk, deleted_at__isnull=True)
     return render(request, 'blog/post_detail.html', {'post':post})
 
-def delete_post(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    post.deleted_at = timezone.now()
-    post.save()
-    return redirect('post-list-html')
+
+class DeletePostView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def delete(self, request, pk):
+        post = get_object_or_404(Post, pk=pk)
+        post.deleted_at = timezone.now()
+        post.save()
+        return Response({"message": "Пост успешно удалён"}, status=status.HTTP_204_NO_CONTENT)
 
 
 
