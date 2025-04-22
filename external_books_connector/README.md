@@ -5,7 +5,7 @@ Django-приложение для поиска книг по названию �
 ## Установка
 
 ```bash
-git clone https://github.com/yourusername/external_books_connector.git
+git clone https://github.com/St-Bra/HomeWork/tree/main/external_books_connector
 
 Скопируй директорию external_books в свой Django-проект и подключи:
 # settings.py
