@@ -1,12 +1,13 @@
 from rest_framework import serializers
 from .models import Review
-from django.contrib.auth.models import User
 from books.models import Book
+from django.contrib.auth.models import User
 
 class ReviewSerializer(serializers.ModelSerializer):
-    user = serializers.StringRelatedField()
-    book = serializers.StringRelatedField()
+    # Поле book будет представлять собой только ID книги
+    book = serializers.PrimaryKeyRelatedField(queryset=Book.objects.all())
+    user = serializers.StringRelatedField(read_only=True)  # Ссылка на текущего пользователя
 
     class Meta:
         model = Review
-        fields = '__all__'
+        fields = ['id', 'book', 'user', 'rating', 'text', 'created_at']

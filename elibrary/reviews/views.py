@@ -10,7 +10,7 @@ class ReviewListCreateView(APIView):
     permission_classes = [IsAuthenticatedOrReadOnly]
 
     def get(self, request):
-        reviews = Review.objects.filter(is_deleted=False)
+        reviews = Review.objects.all()
         serializer = ReviewSerializer(reviews, many=True)
         return Response(serializer.data)
 

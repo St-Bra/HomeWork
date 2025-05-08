@@ -1,7 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAuthenticated
 from .models import Book, Author, Genre
 from .serializers import BookSerializer, AuthorSerializer, GenreSerializer
 
@@ -44,11 +44,22 @@ class BookDetailView(APIView):
         book.save()
         return Response({'detail': 'Book soft-deleted'}, status=status.HTTP_204_NO_CONTENT)
 
+    def put(self, request, pk):
+        try:
+            book = Book.objects.get(pk=pk, is_deleted=False)
+        except Book.DoesNotExist:
+            return Response({'detail': 'Not found'}, status=status.HTTP_404_NOT_FOUND)
+
+        serializer = BookSerializer(book, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 # ========== АВТОРЫ ==========
 
 class AuthorListCreateView(APIView):
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request):
         authors = Author.objects.all()
@@ -64,7 +75,7 @@ class AuthorListCreateView(APIView):
 
 
 class AuthorDetailView(APIView):
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, pk):
         try:
@@ -78,7 +89,7 @@ class AuthorDetailView(APIView):
 # ========== ЖАНРЫ ==========
 
 class GenreListCreateView(APIView):
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request):
         genres = Genre.objects.all()
@@ -94,7 +105,7 @@ class GenreListCreateView(APIView):
 
 
 class GenreDetailView(APIView):
-    permission_classes = [IsAuthenticatedOrReadOnly]
+    permission_classes = [IsAuthenticated]
 
     def get(self, request, pk):
         try:
