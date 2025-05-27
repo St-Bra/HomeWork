@@ -1,10 +1,21 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import ProductViewSet, protected_view
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from .views import (
+    ProductViewSet,
+    WarehouseViewSet,
+    StockViewSet,
+    SupplyViewSet,
+    SuppliedProductViewSet,
+    protected_view,
+)
 
 router = DefaultRouter()
 router.register(r'products', ProductViewSet)
+router.register(r'warehouses', WarehouseViewSet)
+router.register(r'stocks', StockViewSet)
+router.register(r'supplies', SupplyViewSet)
+router.register(r'supplied-products', SuppliedProductViewSet)
 
 urlpatterns = [
     path('api/', include(router.urls)),
